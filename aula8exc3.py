@@ -8,6 +8,6 @@ print(lista)
 maior_numero = max(lista)
 print(maior_numero)
 
-for indice in range(10):
+for indice in range(len(lista)):
     if lista[indice] == maior_numero:
         print(indice)

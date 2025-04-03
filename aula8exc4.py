@@ -5,8 +5,10 @@ for i in range(10):
     lista.append(numero)
 print(f"Numero: {lista}")
 
-for numero in range(10):
+soma_par = 0
+for numero in lista:
     if numero %2 == 0:
-        soma_par = numero +numero
-        print(f"Soma dos pares: {soma_par}")
+        soma_par += numero 
 
+
+print(f"Soma dos pares: {soma_par}")
